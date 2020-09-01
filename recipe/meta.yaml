@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/nion-software/nionutils
-  license: Apache Software
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
   summary: Nion utility classes.
@@ -37,4 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - cmeyer
-    - ericpre
+    - nion-gwyn
