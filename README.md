@@ -5,7 +5,7 @@ Home: https://github.com/nion-software/nionutils
 
 Package license: Apache Software
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Nion utility classes.
 

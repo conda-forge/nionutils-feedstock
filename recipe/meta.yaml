@@ -1,18 +1,18 @@
 {% set name = "nionutils" %}
-{% set version = "0.3.20" %}
+{% set version = "0.3.21" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: a75d38e029012f007e4c52b49041ad67e113183724f409517dc6130e2fc6870f
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 8621a7e25b24af2f5414720bc55808311daf1354615364d84fa0f62e2956e664
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -27,14 +27,14 @@ test:
     - nion.utils.test
 
 about:
-  home: "https://github.com/nion-software/nionutils"
-  license: Apache Software
+  home: https://github.com/nion-software/nionutils
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
-  summary: "Nion utility classes."
+  summary: Nion utility classes.
   dev_url: https://github.com/nion-software/nionutils
 
 extra:
   recipe-maintainers:
     - cmeyer
-    - ericpre
+    - nion-gwyn
