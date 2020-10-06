@@ -3,7 +3,7 @@ About nionutils
 
 Home: https://github.com/nion-software/nionutils
 
-Package license: Apache Software
+Package license: Apache-2.0
 
 Feedstock license: BSD-3-Clause
 
@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@cmeyer](https://github.com/cmeyer/)
-* [@ericpre](https://github.com/ericpre/)
+* [@nion-gwyn](https://github.com/nion-gwyn/)
 
