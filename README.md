@@ -5,11 +5,11 @@ Home: https://github.com/nion-software/nionutils
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nionutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: Nion utility classes.
 
-
+Development: https://github.com/nion-software/nionutils
 
 Current build status
 ====================
