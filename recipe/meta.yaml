@@ -1,5 +1,5 @@
 {% set name = "nionutils" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7d1188c90a1aa8f3c2b5ebb3a703ddb0cbd5ce3143a4a38c7f27dd8e04e38b2a
+  sha256: dbc3fc0105021404875e49bc08975fbddc0589e3d995bcc4d380533579e67d2a
 
 build:
   number: 0
