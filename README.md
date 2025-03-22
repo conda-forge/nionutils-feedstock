@@ -148,6 +148,3 @@ Feedstock Maintainers
 * [@cmeyer](https://github.com/cmeyer/)
 * [@nion-gwyn](https://github.com/nion-gwyn/)
 
-
-<!-- dummy commit to enable rerendering -->
-
