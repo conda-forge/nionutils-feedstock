@@ -1,6 +1,6 @@
-{% set python_min = '3.11' %}
+{% set python_min = "3.11" %}
 {% set name = "nionutils" %}
-{% set version = "4.12.0" %}
+{% set version = "4.14.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fece020d804661cccb07721a88e70e6ac06c3709b0037822e7f2ce97be4e066e
+  sha256: 83502c4a485f959235655632b564d2cb5290d52837ef863e81be37e4ac861408
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
